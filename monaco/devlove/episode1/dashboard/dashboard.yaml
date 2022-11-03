@@ -8,3 +8,5 @@ easytravel:
 - name: "Easytravel"
 - owner: "{{ .Env.DT_USER }}"
 - app: "/episode1/application-web/EasyTravelAngular.id"
+- managementZoneId: "/episode1//management-zone/EasyTravel.id"
+- managementZoneName: "/episode1/management-zone/EasyTravel.name"
