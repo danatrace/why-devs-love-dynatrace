@@ -1,5 +1,10 @@
 config:
 - performance-overview: performance-overview.json
+- easytravel: easytravel.json
 performance-overview:
 - name: "Why Devs 💜 Dynatrace 🧬 Release Better Software Faster 🚀"
 - owner: "{{ .Env.DT_USER }}"
+easytravel:
+- name: "Easytravel"
+- owner: "{{ .Env.DT_USER }}"
+- app: "/episode1/application-web/EasyTravelAngular.id"
