@@ -1,25 +1,18 @@
 {
-  "metadata": {
-    "configurationVersions": [
-      6
-    ],
-    "clusterVersion": "1.252.168.20221017-141140"
-  },
-  "id": "0f60aee9-cf75-4572-8e47-18441b1d3f07",
-  "dashboardMetadata": {
-    "name": "easytravel",
-    "shared": true,
-    "owner": "daniel.braaf@dynatrace.com",
-    "dashboardFilter": {
-      "timeframe": "-6h",
-      "managementZone": {
-        "id": "-2446931073034995263",
-        "name": "EasyTravel"
-      }
+    "dashboardMetadata": {
+      "name": "{{ .name }}",
+      "shared": true,
+      "owner": "",
+      "dashboardFilter": {
+        "timeframe": "-6h",
+        "managementZone": {
+          "id": "{{ .managementZoneId }}",
+          "name": "{{ .managementZoneName }}"
+        }
+      },
+      "popularity": 10,
+      "hasConsistentColors": true
     },
-    "popularity": 1,
-    "hasConsistentColors": false
-  },
   "tiles": [
     {
       "name": "Host health",
@@ -102,7 +95,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "APPLICATION-80CF0133D9A2BA2A",
+        "{{ .app }}",
         "GEOLOCATION-0000000000000000",
         "WORLD"
       ],
@@ -120,7 +113,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "APPLICATION-80CF0133D9A2BA2A",
+        "{ .app }}",
         "GEOLOCATION-EF77F2A17134795A",
         "CONTINENT"
       ],
@@ -138,7 +131,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "APPLICATION-80CF0133D9A2BA2A"
+        "{ .app }}"
       ]
     },
     {
@@ -359,7 +352,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "APPLICATION-80CF0133D9A2BA2A"
+        "{ .app }}"
       ]
     },
     {
