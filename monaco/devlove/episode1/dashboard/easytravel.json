@@ -2,7 +2,7 @@
     "dashboardMetadata": {
       "name": "{{ .name }}",
       "shared": true,
-      "owner": "",
+      "owner": "{{ .owner }}",
       "dashboardFilter": {
         "timeframe": "-6h",
         "managementZone": {
