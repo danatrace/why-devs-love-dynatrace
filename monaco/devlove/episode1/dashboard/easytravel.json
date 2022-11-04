@@ -114,8 +114,8 @@
       "tileFilter": {},
       "assignedEntities": [
         "{ .app }}",
-        "GEOLOCATION-EF77F2A17134795A",
-        "CONTINENT"
+        "GEOLOCATION-0000000000000000",
+        "WORLD"
       ],
       "metric": "APDEX"
     },
