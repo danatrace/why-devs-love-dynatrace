@@ -113,7 +113,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "{ .app }}",
+        "{{ .app }}",
         "GEOLOCATION-0000000000000000",
         "WORLD"
       ],
@@ -131,7 +131,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "{ .app }}"
+        "{{ .app }}"
       ]
     },
     {
@@ -352,7 +352,7 @@
       },
       "tileFilter": {},
       "assignedEntities": [
-        "{ .app }}"
+        "{{ .app }}"
       ]
     },
     {
