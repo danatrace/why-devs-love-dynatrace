@@ -10,6 +10,7 @@
           "name": "{{ .managementZoneName }}"
         }
       },
+      "preset": true,
       "popularity": 10,
       "hasConsistentColors": true
     },
